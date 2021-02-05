@@ -1,0 +1,33 @@
+
+.fechajunta  {  
+  width: 305px;
+  background: rgba(8, 40, 54, 0.945);
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 5%; 
+  padding:14px;
+  border:0px;
+  color:rgba(253, 253, 253, 0.884);
+  font-size: 20px;
+}
+.finfecha{
+  position: relative;
+  left: 1%;  
+}
+.botonfecha{
+  position: relative;
+  left: 15%;
+  width: 64%;
+}
+
+.botondia{
+  position: relative;
+  left: 15%;
+  width: 64%;
+}
+.fechaxdias{
+  position: relative;
+  left: 9%;  
+  width: 40%;
+}

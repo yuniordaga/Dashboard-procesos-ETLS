@@ -1,0 +1,97 @@
+{
+  "_from": "timelines-chart",
+  "_id": "timelines-chart@2.11.1",
+  "_inBundle": false,
+  "_integrity": "sha512-GuLSNks3B/W5iFsbH4AHYVRxVenw4NR0ZWssbjk9HNTts7L4D0PmvVpMiY7hBpj8A/1D0aoinDFjfkLtuZKzgg==",
+  "_location": "/timelines-chart",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "timelines-chart",
+    "name": "timelines-chart",
+    "escapedName": "timelines-chart",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/timelines-chart/-/timelines-chart-2.11.1.tgz",
+  "_shasum": "854aba2eb2aac86fa069305282e76fbf50ef7d00",
+  "_spec": "timelines-chart",
+  "_where": "C:\\Users\\ydaga\\Desktop\\proyectos\\IMPORTADOTimeLine",
+  "author": {
+    "name": "Vasco Asturiano",
+    "url": "http://bl.ocks.org/vasturiano"
+  },
+  "bugs": {
+    "url": "https://github.com/vasturiano/timelines-chart/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "d3-array": "^2.8.0",
+    "d3-axis": "^2.0.0",
+    "d3-brush": "^2.1.0",
+    "d3-color-legend": "^1.3.1",
+    "d3-scale": "^3.2.3",
+    "d3-scale-chromatic": "^2.0.0",
+    "d3-selection": "^2.0.0",
+    "d3-time-format": "^3.0.0",
+    "d3-tip": "^0.9.1",
+    "kapsule": "^1.13.3",
+    "svg-text-fit": "^1.1.7",
+    "svg-utils": "^1.2.8"
+  },
+  "deprecated": false,
+  "description": "A parallel (swimlanes) timelines D3 chart for representing state of time-series over time.",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "postcss-nested": "^4.2.3",
+    "postcss-simple-vars": "^5.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.33.1",
+    "rollup-plugin-dts": "^1.4.13",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.0.5"
+  },
+  "files": [
+    "dist/**/*",
+    "example/**/*"
+  ],
+  "homepage": "https://github.com/vasturiano/timelines-chart",
+  "keywords": [
+    "timelines",
+    "time-series",
+    "d3",
+    "swimlanes",
+    "stacked",
+    "heatmap",
+    "lines"
+  ],
+  "license": "MIT",
+  "main": "dist/timelines-chart.common.js",
+  "module": "dist/timelines-chart.module.js",
+  "name": "timelines-chart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasturiano/timelines-chart.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "dev": "rollup -w -c rollup.config.dev.js",
+    "prepare": "npm run build"
+  },
+  "types": "dist/timelines-chart.d.ts",
+  "unpkg": "dist/timelines-chart.min.js",
+  "version": "2.11.1"
+}
