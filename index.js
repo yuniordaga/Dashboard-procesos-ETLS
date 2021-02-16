@@ -82,7 +82,7 @@ function procesos_Etls(r){
                   
                   return {
                           timeRange:[start, end],           //se usa para el incio y fin del segmento en la grafica
-                          val: frame[indiceframe],          //se usa para definir el tipo de frame en la gráfica 
+                          val: Regiones[r],          //se usa para definir el tipo de frame en la gráfica 
                           labelVal:frame[indiceframe]+"Carga: "+carga+"<br>"+data[k].ETLprg+"<br>"+"indice de la data: "+k+"<br>"+" indice del ProcesoETL:"+w+"<br>"+"ID en la data: "+vid      //permite la visualizacion de la informacion solicitada por evento en la gráfica                 
                         };
                         
